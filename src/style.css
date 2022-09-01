@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*==========
+ Layout
+ ===========*/
+
+.container_flex {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headerMain {
+    background-color: rgb(223, 222, 222);
+    padding: 1em 0;
+}
+
+.containerMain {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.locationTitle {
+    margin: 1.5em 0 .5em 0;
+}
+
+.eachComponent {
+    border: solid rgb(197, 197, 197) 1px;
+    width: 17%;
+    border-radius: 5px;
+}
+
+h3 { 
+    margin: .5em 0;
+}
+
+.dateAndTime {
+    font-size: .8rem;
+    margin-top: 0;
+}
+
+button {
+    margin: 1em 0 0 1em;
+    align-self: center;
+}
